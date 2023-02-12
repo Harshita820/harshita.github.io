@@ -1,0 +1,282 @@
+.pro {
+    background-color: #ffffff;
+}
+.menu {
+    display: flex;
+    background-color: #e9f5ff;
+}
+.logo { 
+    width: 70px;
+    height: 70px;
+    margin-left: 25px;
+    margin-top: 22px;
+}
+.search {
+    margin-top: 10px;
+    margin-left: 70px;
+    padding: 35px 10px 35px 30px;   
+}
+.textbox {
+    height: 40px;
+    border: 0px white none;
+    border-bottom: 1.5px solid #002756;
+    background-color: #e9f5ff;
+    font-size: 15px;  
+}
+#sicon {
+    width: 27px;
+    height: 27px;
+   margin-top: 50px;
+}
+#iconbar {
+    display: flex;
+    margin-left: 40px;
+}
+
+.itext { 
+    font-size: 10px;
+    color:#002756 ;
+    text-align: center;
+}
+.icons {
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+
+.dd {
+    position:relative;
+    display:inline-block;
+}
+.dropdown1 {
+    display:none;
+    position:absolute;
+    background-color: #f1f1f1;
+    min-width:150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    text-align: left;
+}
+.dropdown1 a {
+    color:#002756;
+    padding:12px 9px ;
+    text-decoration: none;
+    display:block;
+}
+.dd:hover .dropdown1 {
+    display:block;
+   
+}
+.dropdown1 a:hover {
+    background-color: #ddd;
+}
+
+.list {
+    background-color:#002756;
+    list-style: none;   
+    margin-top: 0px;
+    padding: 0px;
+}
+.list li {
+    display: inline-block;
+}
+.list li a {
+    display:block;
+    padding:15px 40px 15px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.list li a:hover {   
+    background-color: white;
+    color: #002756;
+
+}
+.cover {
+    display: flex;
+    margin: 40px 10px 20px 10px;
+    border:0px  #002756 solid  ;
+    padding: 15px;
+    background-color: #e9f5ff;
+   
+}
+.p1 {
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: center;
+    color: black
+}
+.shopnow {
+    width: 150px;
+    height: 50px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color:  #002756;
+    color:white;
+    font-size: 13px;
+}
+#beach {
+    padding-right: 20px;
+}
+.cover2 {
+    display: flex;
+    margin: 40px 10px 20px 10px;
+    border:1px  #002756 solid;
+    padding: 40px;
+    background-color: white;
+}
+.p2 { 
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+.aboutus {
+    width: 200px;
+    height: 50px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: white;
+    color:#002756;
+    font-size: 13px;
+}
+#pic {
+    padding-left: 20px;
+}
+.h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.collection {
+    margin: 10px 30px 10px 30px;
+    display: inline-block;
+    border: 1px solid #002756;
+    padding: 30px;
+    border-radius: 0px 60px 0px 0px;
+}
+.jewelery {
+    text-align: center;
+}
+.button {
+    display: block;
+    margin: auto;
+    color:#002756;
+    background-color: #e9f5ff;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+   border-style: none;
+   
+}
+.c {
+    padding-bottom: 30px;
+}
+.news {
+    background-color: #e9f5ff;
+    margin-top: 50px;
+    padding:20px;
+    
+}
+.news p{
+    text-align: center;
+    font-size: 22px;
+}
+.letter {
+    height: 20px;
+    border: 1px black solid;
+    padding: 11px;
+}
+.subscribe {
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    margin-left: 15px;
+    color: #e9f5ff;
+    background-color: #002756;
+    border: 1px none #002756;
+}
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/*the last part*/
+.fff {
+   
+    
+}
+.last {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    background-color: #002756;
+    color:#ffffff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.website1 {
+    display:inline-block;
+}
+.website2 {
+    display:inline-block;
+}
+.website3 {
+    display:inline-block;
+}
+.website1 p {
+    font-size: 22px;
+}
+.website1 ul {
+    list-style: none;
+}
+.website1 ul li {
+    padding-bottom:3px;
+    margin-left: -30px;
+}
+.website2 p {
+    font-size: 22px;
+}
+.website2 ul {
+    list-style: none;
+}
+.website2 ul li {
+    padding-bottom:3px;
+    margin-left: -30px;
+}
+.website3 .phone {
+
+   
+}
+.website3 .phone .c1 {
+    display: inline-block;
+    padding-left:7px;
+    
+}
+.website3 .email {
+
+
+}
+.website3 .email .e1 {
+    display:inline-block;
+    padding-left:7px;
+
+}
+.website3 .address2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.website3 #imgs {
+    
+}
+.website3 #imgs.social {
+    display: inline-block;
+    
+    
+ }
